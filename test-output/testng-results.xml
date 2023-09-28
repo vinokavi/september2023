@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="9" passed="9" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-09-11T16:54:28Z" name="Suite" finished-at="2023-09-11T16:57:11Z" duration-ms="163121">
+    <groups>
+    </groups>
+    <test started-at="2023-09-11T16:54:28Z" name="Test3" finished-at="2023-09-11T16:56:49Z" duration-ms="141356">
+      <class name="org.testng.CrossBrowserClass">
+        <test-method signature="website(java.lang.String)[pri:1, instance:org.testng.CrossBrowserClass@338fc1d8]" started-at="2023-09-11T16:54:28Z" name="website" finished-at="2023-09-11T16:55:13Z" duration-ms="44637" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[FirefoxBrowser]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- website -->
+        <test-method signature="clickProduct()[pri:2, instance:org.testng.CrossBrowserClass@338fc1d8]" started-at="2023-09-11T16:55:13Z" name="clickProduct" finished-at="2023-09-11T16:56:09Z" duration-ms="55924" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickProduct -->
+        <test-method signature="addCart()[pri:3, instance:org.testng.CrossBrowserClass@338fc1d8]" started-at="2023-09-11T16:56:09Z" name="addCart" finished-at="2023-09-11T16:56:49Z" duration-ms="40698" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addCart -->
+      </class> <!-- org.testng.CrossBrowserClass -->
+    </test> <!-- Test3 -->
+    <test started-at="2023-09-11T16:54:28Z" name="Test1" finished-at="2023-09-11T16:57:08Z" duration-ms="160375">
+      <class name="org.testng.CrossBrowserClass">
+        <test-method signature="website(java.lang.String)[pri:1, instance:org.testng.CrossBrowserClass@2a693f59]" started-at="2023-09-11T16:54:28Z" name="website" finished-at="2023-09-11T16:55:32Z" duration-ms="63783" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ChromeBrowser]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- website -->
+        <test-method signature="clickProduct()[pri:2, instance:org.testng.CrossBrowserClass@2a693f59]" started-at="2023-09-11T16:55:32Z" name="clickProduct" finished-at="2023-09-11T16:56:28Z" duration-ms="56054" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickProduct -->
+        <test-method signature="addCart()[pri:3, instance:org.testng.CrossBrowserClass@2a693f59]" started-at="2023-09-11T16:56:28Z" name="addCart" finished-at="2023-09-11T16:57:08Z" duration-ms="40456" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addCart -->
+      </class> <!-- org.testng.CrossBrowserClass -->
+    </test> <!-- Test1 -->
+    <test started-at="2023-09-11T16:54:28Z" name="Test2" finished-at="2023-09-11T16:57:11Z" duration-ms="163120">
+      <class name="org.testng.CrossBrowserClass">
+        <test-method signature="website(java.lang.String)[pri:1, instance:org.testng.CrossBrowserClass@5745ca0e]" started-at="2023-09-11T16:54:28Z" name="website" finished-at="2023-09-11T16:55:35Z" duration-ms="66885" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[EdgeBrowser]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- website -->
+        <test-method signature="clickProduct()[pri:2, instance:org.testng.CrossBrowserClass@5745ca0e]" started-at="2023-09-11T16:55:35Z" name="clickProduct" finished-at="2023-09-11T16:56:31Z" duration-ms="55755" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickProduct -->
+        <test-method signature="addCart()[pri:3, instance:org.testng.CrossBrowserClass@5745ca0e]" started-at="2023-09-11T16:56:31Z" name="addCart" finished-at="2023-09-11T16:57:11Z" duration-ms="40397" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addCart -->
+      </class> <!-- org.testng.CrossBrowserClass -->
+    </test> <!-- Test2 -->
+  </suite> <!-- Suite -->
+</testng-results>
